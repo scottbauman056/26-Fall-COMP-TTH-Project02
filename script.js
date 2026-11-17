@@ -11,11 +11,9 @@ $(function() {
 
 });
 
-// Added weight limit bounds for an average crocodile, in pounds
+// Added weight and energy limit bounds for an average crocodile, in pounds
 const minWeight = 400;
 const maxWeight = 1000;
-
-// This sets the maximum cap for energy so it can't go higher
 const maxEnergy = 10;
 
 // Defines pet's name, weight (number), happiness (number), and energy (number) for 
